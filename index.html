@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <title>Homineni - It's Our Daily | Ayam & Sambal di Cimahi</title>
+
+  <meta
+    name="description"
+    content="Homineni di Cibeber, Cimahi: ayam Cigarian, Kremes Ijo, Bakar Kecap, Taliwang, dan Betutu mulai Rp14.500. Halal, pesan langsung via WhatsApp."
+  >
+
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍗</text></svg>"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: "var(--bg)",
+            surface: "var(--surface)",
+            ink: "var(--ink)",
+            muted: "var(--muted)",
+            g: "var(--green)",
+            g2: "#285a42",
+            or: "#d97932",
+            or2: "#ed9a56",
+            cr: "#eee5d4"
+          },
+
+          fontFamily: {
+            sans: ['"DM Sans"', "system-ui", "sans-serif"],
+            serif: ['"Playfair Display"', "Georgia", "serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans leading-relaxed antialiased">
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-10 bg-bg border-b border-gray-400/20 backdrop-blur">
+    <div
+      class="max-w-6xl mx-auto h-[70px] px-5 flex items-center justify-between"
+    >
+      <a
+        href="#home"
+        class="flex items-center gap-2.5 font-serif font-extrabold text-2xl"
+      >
+        <img
+          src="img/logo.jpg"
+          alt="Homineni logo"
+          class="w-11 h-11 rounded-full object-cover ring-2 ring-white/70 shadow-sm"
+        >
+        Homineni
+      </a>
+
+      <nav class="flex items-center gap-4 text-sm font-semibold lg:gap-7">
+        <a
+          class="hidden md:block hover:text-or"
+          href="#about"
+        >
+          Tentang
+        </a>
+
+        <a
+          class="hidden md:block hover:text-or"
+          href="#menu"
+        >
+          Menu
+        </a>
+
+        <a
+          class="hidden md:block hover:text-or"
+          href="#features"
+        >
+          Keunggulan
+        </a>
+
+        <a
+          class="hidden md:block hover:text-or"
+          href="#location"
+        >
+          Lokasi
+        </a>
+
+        <a
+          class="hidden md:block hover:text-or"
+          href="#contact"
+        >
+          Kontak
+        </a>
+
+        <a
+          class="rounded-full bg-g text-white px-5 py-2.5 hover:bg-or transition"
+          href="#orders"
+        >
+          Pesan
+        </a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HOME -->
+    <section
+      id="home"
+      class="relative overflow-hidden px-5 py-14 md:py-24"
+    >
+      <div
+        class="absolute -top-44 -right-24 w-[500px] h-[500px] rounded-full bg-or/10"
+      ></div>
+
+      <div
+        class="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-10 md:gap-16 items-center"
+      >
+
+        <div>
+          <span
+            class="inline-block rounded-full bg-[#e8e0d0] text-[#173b2b] text-xs font-bold px-4 py-2 mb-5"
+          >
+            UMKM KULINER • CIMAHI
+          </span>
+
+          <h1
+            class="font-serif font-bold text-6xl sm:text-7xl lg:text-8xl leading-[.95] tracking-tighter mb-6"
+          >
+            It's Our<br>
+            <span class="text-or">Daily.</span>
+          </h1>
+
+          <p class="max-w-lg text-muted text-lg mb-8">
+            Ayam dan sambal khas Homineni, sederhana, lezat, dan pas menemani
+            keseharianmu. Halal bersertifikat, buka setiap hari 08.00-21.00.
+          </p>
+
+          <div class="flex flex-wrap gap-3.5">
+            <a
+              class="inline-flex justify-center rounded-full px-6 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-or bg-g text-white"
+              href="#menu"
+            >
+              Pesan Sekarang →
+            </a>
+
+            <a
+              class="inline-flex justify-center rounded-full px-6 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-or border border-gray-400/50 hover:bg-surface"
+              href="#location"
+            >
+              Kunjungi Kami
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="hero-logo order-first md:order-last justify-self-center w-[min(100%,340px)] md:w-[min(100%,460px)] aspect-square rounded-full bg-g text-white grid place-content-center text-center border-[6px] border-surface shadow-2xl ring-8 ring-or/20 p-0 overflow-hidden"
+        >
+          <img
+            src="img/logo.jpg"
+            alt="Logo Homineni"
+            class="hero-logo-image h-full w-full rounded-full object-cover"
+          >
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section
+      id="about"
+      class="bg-surface px-5 py-16 md:py-24"
+    >
+      <div
+        class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-20 items-center"
+      >
+
+        <div
+          class="min-h-[280px] sm:min-h-[420px] bg-g rounded-[30px] grid place-items-center overflow-hidden"
+        >
+          <img
+            src="img/krisjo.jpg"
+            alt="Foto menu Krisjo Homineni"
+            class="w-full h-full min-h-[280px] sm:min-h-[420px] object-cover"
+          >
+        </div>
+
+        <div>
+          <p
+            class="text-or uppercase tracking-[2px] text-xs font-extrabold mb-3"
+          >
+            Tentang Homineni
+          </p>
+
+          <h2
+            class="font-serif font-bold text-4xl sm:text-5xl leading-tight mb-4"
+          >
+            Rasa sederhana<br>
+            untuk setiap hari.
+          </h2>
+
+          <p class="text-muted mb-5">
+            Homineni hadir sebagai pilihan kuliner di Cibeber, Cimahi, dengan
+            menu ayam dan pendamping yang praktis dinikmati kapan saja, dekat
+            kampus UNJANI.
+          </p>
+
+          <p class="text-muted mb-5">
+            Bisa dibawa pulang, atau dipesan langsung lewat web ini dan
+            dikirim ke WhatsApp admin.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5 mt-7">
+
+            <div class="p-4 bg-bg rounded-2xl">
+              <strong class="block font-serif text-2xl">
+                Halal
+              </strong>
+              <span class="text-xs text-muted">
+                Bersertifikat
+              </span>
+            </div>
+
+            <div class="p-4 bg-bg rounded-2xl">
+              <strong class="block font-serif text-2xl">
+                4.6
+              </strong>
+              <span class="text-xs text-muted">
+                Rating dari 50 ulasan
+              </span>
+            </div>
+
+            <div class="p-4 bg-bg rounded-2xl">
+              <strong class="block font-serif text-2xl">
+                Rp14,5rb
+              </strong>
+              <span class="text-xs text-muted">
+                Harga mulai dari
+              </span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- MENU -->
+    <section
+      id="menu"
+      class="px-5 py-16 md:py-24"
+    >
+      <div class="menu-content max-w-6xl mx-auto">
+
+        <p
+          class="text-or uppercase tracking-[2px] text-xs font-extrabold mb-3"
+        >
+          Pilihan Menu
+        </p>
+
+        <h2
+          class="font-serif font-bold text-4xl sm:text-5xl leading-tight mb-4"
+        >
+          Favorit Homineni.
+        </h2>
+
+        <p class="text-muted max-w-xl">
+          Lihat foto di Menu, lalu pilih jumlah di Pesanan. Harga promo GoFood,
+          angka dicoret adalah harga normal.
+        </p>
+
+        <div
+          class="max-w-4xl mx-auto mt-10 p-5 sm:p-8 bg-g text-white rounded-[28px] shadow-2xl"
+        >
+
+          <div
+            class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pb-5 border-b border-white/20"
+          >
+            <span class="font-serif font-semibold text-3xl">
+              Menu Homineni
+            </span>
+
+            <strong class="text-or2">
+              Mulai dari Rp14.500
+            </strong>
+          </div>
+
+          <label class="menu-search">
+            <span class="menu-search-icon" aria-hidden="true"></span>
+            <input
+              id="menuSearch"
+              type="search"
+              placeholder="Cari ayam, nasi, sambal..."
+              autocomplete="off"
+              aria-label="Cari menu Homineni"
+            >
+          </label>
+          <p class="menu-empty" id="menuEmpty" role="status" aria-live="polite" hidden>
+            Menu tidak ditemukan. Coba kata kunci lain.
+          </p>
+          <div class="menu-section-heading">
+            <h3>Galeri Menu</h3>
+            <span>Foto dan nama pilihan Homineni</span>
+          </div>
+          <div id="menuGallery"></div>
+
+        </div>
+
+        <p class="text-center text-sm text-muted mt-6">
+          Harga bisa berubah sewaktu-waktu.
+          <a
+            class="text-or font-bold"
+            href="https://gofood.co.id/bandung/restaurant/homineni-cimahi-d236cda7-1d3e-4d32-8f55-43dd58b37250"
+            target="_blank"
+            rel="noopener"
+          >
+            Lihat menu lengkap di GoFood →
+          </a>
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- ORDERS -->
+    <section
+      id="orders"
+      class="bg-surface px-5 py-16 md:py-24"
+    >
+      <div class="max-w-6xl mx-auto">
+        <p class="text-or uppercase tracking-[2px] text-xs font-extrabold mb-3">
+          Pesanan
+        </p>
+        <h2 class="font-serif font-bold text-4xl sm:text-5xl leading-tight mb-4">
+          Pilih pesananmu.
+        </h2>
+        <p class="text-muted max-w-xl">
+          Atur jumlah setiap menu di sini sebelum melanjutkan ke checkout.
+        </p>
+
+        <div class="max-w-5xl mx-auto mt-10 p-5 sm:p-8 bg-g text-white rounded-[28px] shadow-2xl">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pb-5 border-b border-white/20">
+            <span class="font-serif font-semibold text-3xl">
+              Daftar Pesanan
+            </span>
+            <strong class="text-or2">
+              Harga mulai Rp14.500
+            </strong>
+          </div>
+          <div id="orderList"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FEATURES -->
+    <section
+      id="features"
+      class="bg-g text-white px-5 py-16 md:py-24"
+    >
+      <div class="feature-content max-w-6xl mx-auto">
+
+        <p
+          class="text-or uppercase tracking-[2px] text-xs font-extrabold mb-3"
+        >
+          Kenapa Homineni?
+        </p>
+
+        <h2
+          class="font-serif font-bold text-4xl sm:text-5xl leading-tight mb-4"
+        >
+          Lebih dari sekadar<br>
+          makanan.
+        </h2>
+
+        <p class="text-white/70 max-w-xl">
+          Pilihan makan yang cocok untuk berbagai momen sehari-hari.
+        </p>
+
+        <div
+          class="feature-carousel mt-12"
+          id="featureCarousel"
+          role="region"
+          aria-label="Keunggulan Homineni"
+          aria-roledescription="carousel"
+        >
+          <div class="feature-viewport">
+            <div class="feature-track">
+              <article
+                class="feature-slide"
+                role="group"
+                aria-roledescription="slide"
+                aria-label="1 dari 3"
+              >
+                <div class="feature-photo">
+                  <img
+                    src="img/ayam_goreng_kremes_ijo.webp"
+                    alt="Ayam goreng kremes dengan sambal khas Homineni"
+                  >
+                  <span class="feature-photo-tag">Favorit Homineni</span>
+                </div>
+                <div class="feature-copy">
+                  <span class="feature-number">01 / 03</span>
+                  <h3 class="font-serif">Menu Ayam</h3>
+                  <p>Enam pilihan ayam, dengan sambal merah atau ijo.</p>
+                  <a class="feature-link" href="#menu">
+                    Jelajahi menu <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </article>
+
+              <article
+                class="feature-slide"
+                role="group"
+                aria-roledescription="slide"
+                aria-label="2 dari 3"
+              >
+                <div class="feature-photo">
+                  <img
+                    src="img/ayam_cigarian_dada_only_sambel_ijomerah.webp"
+                    alt="Ayam Cigarian dengan sambal merah dan ijo"
+                  >
+                  <span class="feature-photo-tag">Mulai Rp14.500</span>
+                </div>
+                <div class="feature-copy">
+                  <span class="feature-number">02 / 03</span>
+                  <h3 class="font-serif">Harga Ramah</h3>
+                  <strong class="feature-price">Rp14.500</strong>
+                  <p>Ayam satuan mulai Rp14.500, paket nasi mulai Rp18.000.</p>
+                  <a class="feature-link" href="#menu">
+                    Lihat pilihan harga <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </article>
+
+              <article
+                class="feature-slide"
+                role="group"
+                aria-roledescription="slide"
+                aria-label="3 dari 3"
+              >
+                <div class="feature-photo">
+                  <img
+                    src="img/komplit_ayam_bakar_kecap.webp"
+                    alt="Paket ayam bakar kecap lengkap dengan nasi dan lauk"
+                  >
+                  <span class="feature-photo-tag">Siap dinikmati</span>
+                </div>
+                <div class="feature-copy">
+                  <span class="feature-number">03 / 03</span>
+                  <h3 class="font-serif">Praktis</h3>
+                  <p>Pesan untuk dibawa pulang atau dinikmati bersama keluarga.</p>
+                  <a class="feature-link" href="#menu">
+                    Pesan sekarang <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="feature-controls">
+            <button
+              class="feature-arrow"
+              type="button"
+              data-feature-direction="-1"
+              aria-label="Slide sebelumnya"
+            >
+              ‹
+            </button>
+            <div class="feature-dots" aria-label="Pilih slide"></div>
+            <button
+              class="feature-arrow"
+              type="button"
+              data-feature-direction="1"
+              aria-label="Slide berikutnya"
+            >
+              ›
+            </button>
+          </div>
+          <span class="sr-only" id="featureStatus" aria-live="polite"></span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- LOCATION -->
+    <section
+      id="location"
+      class="bg-surface px-5 py-16 md:py-24"
+    >
+      <div
+        class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center"
+      >
+
+        <div>
+
+          <p
+            class="text-or uppercase tracking-[2px] text-xs font-extrabold mb-3"
+          >
+            Lokasi
+          </p>
+
+          <h2
+            class="font-serif font-bold text-4xl sm:text-5xl leading-tight mb-4"
+          >
+            Temukan<br>
+            Homineni.
+          </h2>
+
+          <p class="text-muted">
+            Kunjungi Homineni di kawasan Cibeber, Cimahi Selatan.
+          </p>
+
+          <div class="mt-7 p-6 sm:p-8 bg-bg rounded-3xl grid gap-5">
+
+            <div class="flex gap-4">
+              <b
+                class="w-11 h-11 shrink-0 rounded-xl bg-g text-white grid place-items-center font-normal"
+              >
+                📍
+              </b>
+
+              <div>
+                <h4 class="font-bold">
+                  Alamat
+                </h4>
+
+                <p class="text-sm text-muted">
+                  Jl. Komp. Puri Fajar No.11 Blok A8, Cibeber, Kec. Cimahi
+                  Sel., Kota Cimahi, Jawa Barat
+                </p>
+              </div>
+            </div>
+
+
+            <div class="flex gap-4">
+              <b
+                class="w-11 h-11 shrink-0 rounded-xl bg-g text-white grid place-items-center font-normal"
+              >
+                🕗
+              </b>
+
+              <div>
+                <h4 class="font-bold">
+                  Jam buka
+                </h4>
+
+                <p class="text-sm text-muted">
+                  Setiap hari, 08.00-21.00
+                </p>
+              </div>
+            </div>
+
+
+            <div class="flex gap-4" id="contact">
+              <b
+                class="w-11 h-11 shrink-0 rounded-xl bg-g text-white grid place-items-center font-normal"
+              >
+                💬
+              </b>
+
+              <div>
+                <h4 class="font-bold">
+                  Kontak
+                </h4>
+
+                <a
+                  class="text-sm text-muted underline"
+                  href="https://wa.me/6282113468833"
+                >
+                  WhatsApp +62 821-1346-8833
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <iframe
+          class="w-full h-72 sm:h-[420px] rounded-3xl bg-cr border-0"
+          title="Peta lokasi Homineni"
+          loading="lazy"
+          src="https://maps.google.com/maps?q=Homineni+Puri+Fajar+Cibeber+Cimahi&z=15&output=embed"
+        ></iframe>
+
+      </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="px-5 py-16">
+      <div
+        class="max-w-6xl mx-auto rounded-[35px] bg-or text-white text-center px-6 py-14 sm:py-16"
+      >
+
+        <img
+          src="img/logo.jpg"
+          alt="Homineni logo"
+          class="mx-auto mb-5 h-20 w-20 rounded-full object-cover border-4 border-white/50 shadow-lg"
+        >
+
+        <h2
+          class="font-serif font-bold text-4xl sm:text-6xl mb-4"
+        >
+          Yuk, kenal lebih dekat!
+        </h2>
+
+        <p class="max-w-lg mx-auto mb-7">
+          Pesan sekarang atau ikuti aktivitas Homineni di media sosial.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-3">
+
+          <a
+            class="inline-flex justify-center rounded-full px-6 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-or bg-white text-[#173b2b]"
+            href="https://linktr.ee/homineni?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacLmwzFoDV1FhiJWEspXENec016ndLV16mw2eeYUP9fdAiZ2XlFeIVoyJPJIg_aem_7pS_d5igAMsTUKU0FPYvZw"
+            target="_blank"
+            rel="noopener"
+          >
+            Linktree
+          </a>
+
+          <a
+            class="inline-flex justify-center rounded-full px-6 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-or border border-white/70"
+            href="https://wa.me/6282113468833"
+            target="_blank"
+            rel="noopener"
+          >
+            WhatsApp
+          </a>
+
+          <a
+            class="inline-flex justify-center rounded-full px-6 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-or border border-white/70"
+            href="https://www.instagram.com/homineni/"
+            target="_blank"
+            rel="noopener"
+          >
+            Instagram
+          </a>
+
+          <a
+            class="inline-flex justify-center rounded-full px-6 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-or border border-white/70"
+            href="https://www.tiktok.com/@homineni"
+            target="_blank"
+            rel="noopener"
+          >
+            TikTok
+          </a>
+
+          <a
+            class="inline-flex justify-center rounded-full px-6 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-or border border-white/70"
+            href="https://gofood.co.id/bandung/restaurant/homineni-cimahi-d236cda7-1d3e-4d32-8f55-43dd58b37250"
+            target="_blank"
+            rel="noopener"
+          >
+            GoFood
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="bg-[#102b20] text-white px-5 py-10">
+    <div
+      class="max-w-6xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6"
+    >
+
+      <div>
+        <div class="font-serif font-extrabold text-2xl">
+          Homineni
+        </div>
+
+        <p class="text-sm text-white/60">
+          It's Our Daily.
+        </p>
+      </div>
+
+      <div class="text-sm text-white/60 sm:text-right">
+        <p>© 2026 Homineni.</p>
+        <p>Cimahi, Jawa Barat</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- CHECKOUT BAR -->
+  <div class="bar" id="bar">
+    <span id="barTxt"></span>
+    <button id="openCo">
+      Checkout
+    </button>
+  </div>
+
+
+  <!-- CHECKOUT DIALOG -->
+  <dialog class="dlg" id="dlg">
+
+    <h2 class="serif">
+      Checkout
+    </h2>
+
+    <div class="sum" id="sum"></div>
+
+    <form id="co">
+
+      <label for="nm">
+        Nama
+      </label>
+
+      <input
+        id="nm"
+        required
+        autocomplete="name"
+      >
+
+
+      <label for="hp">
+        Nomor WhatsApp
+      </label>
+
+      <input
+        id="hp"
+        type="tel"
+        required
+        autocomplete="tel"
+        placeholder="08xxxxxxxxxx"
+      >
+
+
+      <label for="mt">
+        Pengambilan
+      </label>
+
+      <select id="mt">
+        <option>
+          Ambil di tempat
+        </option>
+
+        <option>
+          Diantar
+        </option>
+      </select>
+
+
+      <div id="adr" hidden>
+
+        <label for="al">
+          Alamat pengantaran
+        </label>
+
+        <textarea
+          id="al"
+          rows="2"
+          placeholder="Nama jalan, nomor, patokan"
+        ></textarea>
+
+      </div>
+
+
+      <label for="py">
+        Pembayaran
+      </label>
+
+      <select id="py">
+        <option value="qris">
+          QRIS
+        </option>
+
+        <option value="transfer">
+          Transfer bank
+        </option>
+
+        <option value="cod">
+          Bayar di tempat
+        </option>
+      </select>
+
+
+      <div
+        class="pinfo"
+        id="pinfo"
+      ></div>
+
+
+      <label for="ct">
+        Catatan (opsional)
+      </label>
+
+      <textarea
+        id="ct"
+        rows="2"
+        placeholder="Contoh: sambal ijo, bagian dada, tidak pakai timun"
+      ></textarea>
+
+
+      <div class="acts">
+
+        <button
+          type="button"
+          class="x"
+          id="cls"
+        >
+          Batal
+        </button>
+
+        <a
+          class="go"
+          id="send"
+          href="#"
+          target="_blank"
+          rel="noopener"
+          role="button"
+        >
+          Kirim Pesanan via WhatsApp
+        </a>
+
+      </div>
+
+    </form>
+
+
+    <!-- PESANAN SELESAI -->
+    <div id="done" hidden>
+
+      <p style="margin-bottom:12px">
+        Pesanan siap dikirim. Tekan tombol di bawah untuk membuka WhatsApp,
+        lalu kirim pesannya.
+      </p>
+
+      <div
+        class="acts"
+        style="flex-direction:column"
+      >
+
+        <a
+          class="go"
+          id="wa1"
+          target="_blank"
+          rel="noopener"
+          style="text-align:center;text-decoration:none;padding:14px"
+        >
+          Buka WhatsApp
+        </a>
+
+        <a
+          class="x"
+          id="wa2"
+          target="_blank"
+          rel="noopener"
+          style="text-align:center;text-decoration:none"
+        >
+          Buka lewat WhatsApp Web
+        </a>
+
+        <button
+          type="button"
+          class="x"
+          id="cp"
+        >
+          Salin pesanan
+        </button>
+
+      </div>
+
+      <p
+        class="pinfo"
+        id="cpn"
+      >
+        Kalau WhatsApp tidak terbuka, salin pesanan lalu kirim manual ke
+        <b id="wan"></b>.
+      </p>
+
+      <textarea
+        id="msg"
+        rows="6"
+        readonly
+        style="margin-top:10px"
+      ></textarea>
+
+    </div>
+
+  </dialog>
+
+
+  <!-- MENU PHOTO PREVIEW -->
+  <dialog class="menu-photo-dialog" id="menuPhotoDialog" aria-label="Pratinjau foto menu">
+    <button
+      class="menu-photo-close"
+      id="closeMenuPhoto"
+      type="button"
+      aria-label="Tutup foto"
+    >
+      ×
+    </button>
+    <img id="menuPhotoPreview" alt="">
+    <p id="menuPhotoCaption"></p>
+  </dialog>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+
+<script>
+document.addEventListener("error",function(e){if(e.target&&e.target.tagName==="IMG"){e.target.style.background="#d97932";e.target.style.objectFit="cover";}},true);
+</script>
+</body>
+
+</html>
